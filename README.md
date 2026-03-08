@@ -2,73 +2,81 @@
 
 Projeto desenvolvido no curso **Metaverso — Residência em TIC 29 | Capacitação Web 3.0**.
 
-O **Sentinel VR** é um ambiente imersivo desenvolvido em **Unity 3D** que simula operações de **logística fluvial na região amazônica**, integrando conceitos de **metaverso, realidade virtual e monitoramento logístico**.
+O **Sentinel VR** é um ambiente virtual imersivo desenvolvido em **Unity 3D** que simula operações de **logística fluvial na região amazônica**, integrando conceitos de **metaverso, realidade virtual e monitoramento logístico**.
 
-O projeto apresenta um cenário inspirado no **Rio Negro**, onde o usuário pode explorar uma área portuária amazônica e visualizar como tecnologias digitais podem apoiar o transporte fluvial.
+O projeto apresenta um cenário inspirado no **Rio Negro**, onde o usuário pode explorar uma área portuária amazônica e visualizar como tecnologias digitais podem apoiar o transporte fluvial em regiões remotas.
 
 ---
 
-# 🎯 Objetivo do Projeto
+# Objetivo do Projeto
 
-Demonstrar como ambientes de **Realidade Virtual (VR)** podem ser utilizados para representar e simular:
+O objetivo do projeto é demonstrar como ambientes de **Realidade Virtual (VR)** podem ser utilizados para representar e simular:
 
 - operações logísticas fluviais
+- transporte de passageiros e cargas
 - infraestrutura portuária
 - monitoramento de embarcações
-- sistemas de comunicação e navegação
+- sistemas de comunicação e navegação digital
 
-O projeto também explora o potencial do **metaverso aplicado à logística e transporte em regiões remotas**.
-
----
-
-# 🌎 Cenário Virtual
-
-O ambiente inclui:
-
-- Porto fluvial
-- Embarcação de transporte de passageiros e cargas
-- Antena de comunicação
-- Sistema de rastreamento da embarcação
-- Painel de comando da embarcação
-- Aplicativo de orientação satelital
-- Personagens (comandante e passageiros)
-- Celulares com sistema de navegação
-- Outdoor da startup SentinelVR
-- Vegetação amazônica
-- Mercadorias transportadas
-- Sistema de iluminação dinâmica (dia, tarde e noite)
-
-A ambientação sonora utiliza a música **Toada Amazônica**, representando a cultura do beiradão amazônico.
+O projeto também explora aplicações do **metaverso industrial**, que permite a visualização e simulação de sistemas logísticos em ambientes tridimensionais interativos.
 
 ---
 
-# 🧠 Tecnologias Utilizadas
+# Cenário Virtual
 
-- **Unity 3D**
-- **Meta XR SDK**
-- **XR Interaction Toolkit**
-- **OpenXR**
-- **C#**
+O ambiente virtual representa uma área portuária localizada na floresta amazônica e inclui os seguintes elementos:
 
-O projeto foi desenvolvido para **dispositivos Meta Quest** e pode ser testado no **XR Device Simulator** dentro do Unity Editor.
+- porto fluvial para embarque e desembarque
+- embarcação fluvial para transporte de passageiros e mercadorias
+- sistema de comunicação com antena de conectividade
+- painel de comando da embarcação
+- sistema de rastreamento da embarcação
+- aplicativo de orientação satelital
+- comandante da embarcação
+- passageiros com celulares
+- outdoor da startup SentinelVR
+- mercadorias transportadas
+- vegetação amazônica
+- sistema de iluminação dinâmica simulando dia, tarde e noite
+
+A ambientação sonora inclui a música **Toada Amazônica**, representando a cultura das comunidades ribeirinhas da região.
 
 ---
 
-# 🕶️ Sistema de Interação
+# Tecnologias Utilizadas
 
-O ambiente utiliza o **XR Interaction Toolkit**, permitindo interação através de:
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- Unity 3D
+- C#
+- Meta XR SDK
+- XR Interaction Toolkit
+- OpenXR
+
+O ambiente foi preparado para execução em **dispositivos Meta Quest**.
+
+---
+
+# Sistema de Interação
+
+O sistema de interação foi implementado utilizando o **XR Interaction Toolkit**, permitindo que o usuário interaja com objetos do ambiente através de:
 
 - Ray Interaction
-- Seleção de objetos à distância
-- Painéis informativos
-- Interação com elementos tecnológicos do cenário
+- seleção de objetos à distância
+- ativação de painéis informativos
+- interação com elementos tecnológicos da embarcação
 
 Também foi implementado um **sistema de tempo dinâmico**, que alterna entre:
 
-- Dia
-- Tarde
-- Noite
+- dia
+- tarde
+- noite
+
+para tornar o ambiente mais dinâmico e imersivo.
 
 ---
 
-# 📂 Estrutura do Repositório
+# Estrutura do Repositório
+
+A estrutura do projeto segue o padrão de projetos Unity:
+
