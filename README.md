@@ -12,11 +12,11 @@ O projeto apresenta um cenário inspirado no **Rio Negro**, onde o usuário pode
 
 O objetivo do projeto é demonstrar como ambientes de **Realidade Virtual (VR)** podem ser utilizados para representar e simular:
 
-- operações logísticas fluviais
-- transporte de passageiros e cargas
-- infraestrutura portuária
-- monitoramento de embarcações
-- sistemas de comunicação e navegação digital
+- Operações logísticas fluviais
+- Transporte de passageiros e cargas
+- Infraestrutura portuária
+- Monitoramento de embarcações
+- Sistemas de comunicação e navegação digital
 
 O projeto também explora aplicações do **metaverso industrial**, que permite a visualização e simulação de sistemas logísticos em ambientes tridimensionais interativos.
 
@@ -26,18 +26,18 @@ O projeto também explora aplicações do **metaverso industrial**, que permite 
 
 O ambiente virtual representa uma área portuária localizada na floresta amazônica e inclui os seguintes elementos:
 
-- porto fluvial para embarque e desembarque
-- embarcação fluvial para transporte de passageiros e mercadorias
-- sistema de comunicação com antena de conectividade
-- painel de comando da embarcação
-- sistema de rastreamento da embarcação
-- aplicativo de orientação satelital
-- comandante da embarcação
-- passageiros com celulares
-- outdoor da startup SentinelVR
-- mercadorias transportadas
-- vegetação amazônica
-- sistema de iluminação dinâmica simulando dia, tarde e noite
+- pPrto fluvial para embarque e desembarque
+- Embarcação fluvial para transporte de passageiros e mercadorias
+- Sistema de comunicação com antena de conectividade
+- Painel de comando da embarcação
+- Sistema de rastreamento da embarcação
+- Aplicativo de orientação satelital
+- Comandante da embarcação
+- Passageiros com celulares
+- Outdoor da startup SentinelVR
+- Mercadorias transportadas
+- Vegetação amazônica
+- Sistema de iluminação dinâmica simulando dia, tarde e noite
 
 A ambientação sonora inclui a música **Toada Amazônica**, representando a cultura das comunidades ribeirinhas da região.
 
@@ -68,9 +68,9 @@ O sistema de interação foi implementado utilizando o **XR Interaction Toolkit*
 
 Também foi implementado um **sistema de tempo dinâmico**, que alterna entre:
 
-- dia
-- tarde
-- noite
+- Dia
+- Tarde
+- Noite
 
 para tornar o ambiente mais dinâmico e imersivo.
 
@@ -78,5 +78,11 @@ para tornar o ambiente mais dinâmico e imersivo.
 
 # Estrutura do Repositório
 
-A estrutura do projeto segue o padrão de projetos Unity:
+O repositório do projeto foi organizado seguindo a estrutura padrão adotada pela Unity para desenvolvimento de aplicações interativas, com o objetivo de manter uma separação clara entre os diferentes tipos de recursos utilizados no projeto.
+
+Essa organização facilita o gerenciamento dos assets, scripts, cenas e configurações do sistema, além de contribuir para a manutenção do projeto, escalabilidade do desenvolvimento e colaboração entre desenvolvedores.
+
+A estrutura também permite que o projeto seja facilmente aberto e executado em outros ambientes de desenvolvimento que utilizem o Unity Hub, garantindo portabilidade e reprodutibilidade do ambiente de trabalho.
+
+De forma geral, o repositório está dividido em diretórios responsáveis por armazenar recursos visuais, scripts de programação, dependências do projeto e configurações globais do motor de desenvolvimento
 
